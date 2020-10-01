@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="PARA SAILING"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/para"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="How about watching an Aerial view of Payyambalam beach, Kerala with your group
+of friends? It would be a thrilling experience to watch the blue Arabian Sea while
+sailing over it in sky. You can go up till 300 ft? Whoa! Now that’s some height!"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="SKY DIVING"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sky"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Once in your life, you must have desired to fly freely like a bird. This is your
+chance! Go for skydiving and let yourself loose! Scared to risk your life? Send your
+friend ahead of you! Kidding. Go with an expert. Mysore is the best place to
+undertake this adventurous trip in India with fascinating view of blue sky and
+extreme greenery sprawled across the valley."
+
+            />
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

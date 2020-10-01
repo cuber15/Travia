@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="CAVING"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/caving"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Caving being one of the best adventure sports in India, Meghalaya, with its
+captivating caves is the go-to spot. Nestled among the waterfalls and green forests,
+these caves will definitely enthral you. So, pack your bags as you may be needing a
+lot of stuff along with some food in these remote caves. Don’t forget to pack some
+safety gear, you never know which wild friend you may meet on the way. Safe going
+guys!"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="MOUNTAIN BIKING"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/motor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Do you know what the best way to escape into the wilderness is? It’s by riding a
+mountain bike. If you are an avid cyclist, then you must know how much thrill
+mountain biking gives you. You can explore a number of trails depending upon your
+grade and the scenery you want. The hills of Sikkim, Ladakh, and West Bengal offer
+numerous exciting trails for you to raid. If you are a beginner, you can choose easier
+trails.ou to raid. If you are a beginner, you can choose easier
+trails."/>
+
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

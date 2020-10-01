@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="JAGAN MOHAN PALACE"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jagan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Being one of the seven royal palaces in the majestic city of Mysuru, Jaganmohan
+Palace is definitely a must-visit spot if you are looking to catch a glimpse of
+architecture during the period of Wodeyar dynasty. Completed in 1861 by the king of
+the Wodeyar dynasty, Jaganmohan Palace was a royal residence to the guest kings.
+Today, it is serving as a function hall and an art gallery, where numerous sculptures,
+paintings and statues can be seen. The legendary tales of Wodeyar dynasty can
+also be found echoing in the large halls of Jaganmohan Palace.
+"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="NALKNAD PALACE"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nalknad"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Palace is a preserved monument now and has been renovated under the command
+of the Karnataka government. Located in the Kodagu district of Karnataka and built
+during the 18th century, this beautiful palace is believed to be the last shelter of
+Kodagu kings before they were dethroned by the army of the British. Like other
+palaces in India, Nalknad Palace too narrates its yesteryears' legends through its
+corridors that are waiting to be explored. Even though measures are being taken to
+make this palace a tourist spot, people are still not giving more attention to this piece
+of architecture. Why not visit Nalknad Palace this season and inspect the wonderful
+structure and interior design of the place?
+"
+                android:textSize="25dp"
+
+
+            />
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

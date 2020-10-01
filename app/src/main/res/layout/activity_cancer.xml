@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="CANCER"
+                android:textStyle="bold"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cancer"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Cancer tourism in India
+It has been observed that there are many people from Nigeria
+flying to India for cancer treatment. The medical tourism for
+cancer treatment in India is rising since the quality of the
+treatment is high and affordable too, and these are the two
+reasons why Nigerians are coming to India. Also, reports say
+that cancer treatment in Nigeria is not up to the mark.It was
+calculated that more than 1,00,000 people from Nigeria had
+travelled to India and diagnosed of some form of cancer.
+"
+                android:textSize="25dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

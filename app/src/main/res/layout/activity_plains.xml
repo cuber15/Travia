@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="INDO GANGATIC PLANE"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/planes"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="The Indo-Gangetic Plain, also known as the Indus-Ganga Plain and the North Indian River Plain, is a 630-million-acre (2.5-million km2) fertile plain encompassing northern regions of the Indian subcontinent, including most of northern and eastern India, the eastern parts of Pakistan, virtually all of Bangladesh and southern plains of Nepal.[1] The region is named after the Indus and the Ganges rivers and encompasses a number of large urban areas. The plain is bound on the north by the Himalayas, which feed its numerous rivers and are the source of the fertile alluvium deposited across the region by the two river systems. The southern edge of the plain is marked by the Chota Nagpur Plateau.
+"
+                android:textSize="25dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

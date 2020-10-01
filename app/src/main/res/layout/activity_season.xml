@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medtour"
+    tools:context=".season">
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="333dp"
+        android:layout_height="106dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="169dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="317dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="355dp"
+        android:fontFamily="cursive"
+        android:text="Take a Medical Tour of India!!"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+
+</RelativeLayout>

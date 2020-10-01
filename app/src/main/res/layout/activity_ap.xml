@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="JAI VILAS PALACE"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jai" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Jai Vilas Palace, or the Raj Bari. This regal structure, belonging to the erstwhile tribal lords,
+is surrounded by extensive cashew plantations spread over a massive area. Inside the
+palace, the hall has some lovely portraits of the Mukne clan. Upstairs is the children’s
+nursery, drawing room, some intricate antique furniture items, the royal bedroom, the
+obligatory stuffed tigers, loos the size of bedrooms and a huge lobby. The guest section is
+locked but the guide informs us that every now and then important guests come and stay
+here. For instance, Akshay Kumar and his team camped here for 10 days during the
+shooting of Khiladi. The palace is a popular location for film shoots. The palace has close to
+50 rooms; the terrace affords a great view of Jawhar"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:text="AGA KHAN PALACE"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/agak"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Across the river from Osho-land is the Aga Khan Palace and Gandhi National
+Memorial Pune. The building was given over to the British during the historic house
+arrest in 1942 of Mahatma Gandhi, his wife Kasturba, and his secretary Mahadev
+Desai. The Mahatma spent two years in confinement in this palace, during which
+he lost both Kasturba and Desai. There is a moving samadhi to these two within the
+palace grounds. The Mahatma Gandhi Museum here consists of a few rooms
+with photographs."
+                android:textSize="25dp"
+
+
+            />
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

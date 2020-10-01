@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="MANSINGH PALACE"
+                android:textSize="30dp"
+
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mans" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Commissioned by Tomar King Man Singh, between 1486 and 1516, the Mansingh Palace in Gwalior is
+a wonderful specimen of early Hindu architecture. The four-storied structure definitely counts as one
+of the must-visit destinations in Madhya Pradesh. The outer walls have tigers, elephants, peacock and
+crocodiles in ornamented blue, green and yellow. Whereas on the other hand, the interiors are quite
+simple yet attractive. The jali and tile work are quite attractive."
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="GWALIOR FORT"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gwalior"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="One of the most popular attractions in Madhya Pradesh, the massive Gwalior fort offers fabulous
+views. A stunning medieval architecture, the fort has several splendid structures in its premises.
+Adorned with attractions like Jain temples, Saas Bahu temple, Teli ka Mandir, Suraj Kund, Hathi Pol,
+Gujari Mahal etc., the fort presents a sight to behold. Sound and light show held in the premises is a
+sheer delight. This one definitely counts as one of the finest forts and palaces in Madhya Pradesh."
+
+android:textSize="25dp"
+            />
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

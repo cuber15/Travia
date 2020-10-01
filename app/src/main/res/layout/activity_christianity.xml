@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="ST FRANCIS XAVIER"
+                android:textStyle="bold"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/francis"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Francis Xavier, S.J., was a Navarrese Catholic missionary who was a co-founder of the Society
+of Jesus. Born in Javier (Xavier in Old Spanish and in Navarro-Aragonese), Kingdom of Navarre
+(in present-day Spain), he was a companion of Ignatius of Loyola and one of the first
+seven Jesuits who took vows of poverty and chastity at Montmartre, Paris, in 1534."
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="ST THOMAS"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/thomas"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="St. Thomas Mount (known in Modern Tamil as Parangimalai) is a
+small hillock in Chennai, Tamil Nadu, India, near the neighbourhood of Guindy and very close
+to Chennai International Airport.
+The ancient Syrian Christian community of India trace the origin of their church to St. Thomas the
+Apostle. From the 17th century, this part of Chennai was populated predominantly by AngloIndians. The St. Thomas Garrison Church is at the foot of St Thomas Mount.
+The St. Thomas Syro Malabar Catholic Church is located east of the shrine at North Silver
+Street, footholds of the mountain shrine."
+                android:textSize="25dp"
+
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

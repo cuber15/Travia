@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="MOTORCYCLE TOURING"
+                android:textSize="30dp"
+
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/motor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Ladakh is undoubtedly one of the best destination for an adventure trip in India. If
+you really wish to explore the countryside with your best mates then go on a
+motorcycle tour. You can arrange your own touring path or you can join any
+motorcycle expedition like ‘The Raid De Himalaya’. The rally starts from Shimla and
+goes till Leh, crossing some of the spine chilling destinations to test your endurance!
+This is considered to be the best place for adventure sports in India by many
+explorers!
+Tip: Carry some Rum along, you’ll know why."
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="BUNJEE JUMPING"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bunjee"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="With the highest, 83-freaking-meters of Bungee Jumping podium, Rishikesh is one of
+the best destinations to enjoy the ecstasy of weightlessness. This is your official
+ticket to get high – literally! Take delight in this adventure with your friends, while
+soaking in the pristine water on Ganges! You can indulge in other adventure sports
+in Rishikesh, too like river rafting, kayaking, mountain climbing, and paragliding."
+                android:textSize="25dp"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="CHADAR TREK"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chadar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Chadar Trek is not new information to people. The thrilling trek happens on Zanskar
+River in Ladakh during the winters when it is frozen. Leh is already one of the
+popular places for adventure sports in India. Trekkers and adventure
+enthusiasts come all the way to here to walk on the frozen river bed for 8 days till
+the point of the frozen waterfall. The temperature drops down below -30 degrees.
+So you know what you are against. If you cannot stand freezing temperatures, it is
+recommended you do not venture out on this trek as it may be dangerous."
+                android:textSize="25dp"
+
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

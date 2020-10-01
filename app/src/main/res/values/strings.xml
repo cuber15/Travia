@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Travia</string>
+
+    <string name="go_to">Lets Go</string>
+    <string-array name="names">
+        <item>Please select a religion!!</item>
+        <item>Hinduism</item>
+        <item>Islam</item>
+        <item>Sikhism</item>
+        <item>Buddhism</item>
+        <item>Jainism</item>
+        <item>Christianity</item>
+
+    </string-array>
+    <string-array name="name2">
+        <item>Please select your genre!!</item>
+        <item>North</item>
+        <item>East</item>
+        <item>West</item>
+        <item>South</item>
+    </string-array>
+    <string-array name="name3">
+        <item>Please select a State</item>
+        <item>Rajasthan</item>
+        <item>Madhya Pradesh</item>
+        <item>Uttar Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Karnataka</item>
+    </string-array>
+    <string-array name="name4">
+        <item>Please select a Season!!</item>
+        <item></item>
+        <item>Winter</item>
+        <item>Snowfall</item>
+        <item>Moderate</item>
+        <item>Windy</item>
+    </string-array>
+    <string-array name="name5">
+        <item>Please select a Terrain!</item>
+        <item>Mountains</item>
+        <item>Plains</item>
+        <item>Coastal plain</item>
+        <item>Plateau</item>
+        <item>Desert</item>
+
+    </string-array>
+    <string-array name="name6">
+        <item>Choose the medical field!!</item>
+        <item>Dentistry</item>
+        <item>Cosmetic</item>
+        <item>Cardiology</item>
+        <item>Cancer</item>
+    </string-array>
+
+
+</resources>

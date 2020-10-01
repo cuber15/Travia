@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hinduism">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+
+        android:background="@color/yellow">
+
+
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="AMARNATH"
+                android:textStyle="bold"
+
+                android:textSize="45sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/amarnathcave" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amarnath cave is a Hindu shrine located in Jammu and Kashmir, India. The cave is situated at an
+altitude of 3,888 m (12,756 ft),about 141 km (88 mi) from Srinagar, the summer capital of Jammu
+and Kashmir and reached through Pahalgam town. The shrine forms an important part
+of Hinduism, and is considered to be one of the holiest shrines in Hinduism.Hundreds of
+thousands of Hindu devotees make an annual pilgrimage to the Amarnath cave across challenging
+mountainous terrain."
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="BADRINATH TEMPLE"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/badrinath"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Badrinath or Badrinarayan Temple is a Hindu temple dedicated to Lord Vishnu which is situated in
+the town of Badrinath in Uttarakhand, India. The temple and town form one of the four Char
+Dham and Chota Char Dham pilgrimage sites. The temple is also one of the 108 Divya
+Desams dedicated to Vishnu, who is worshipped as Badrinath—holy shrines for Vaishnavites. It is
+open for six months every year (between the end of April and the beginning of November), because
+of extreme weather conditions in the Himalayan region"
+                android:textSize="25dp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+                android:textStyle="bold"
+            android:text="MEENAKSHI TEMPLE"
+            android:textSize="30sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/badri"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Meenakshi Temple, is a historic Hindu temple located on the southern bank of the Vaigai River in
+the temple city of Madurai, Tamil Nadu, India. It is dedicated to Meenakshi, a form of Parvati, and
+her consort, Sundareshwar, a form of Shiva. The temple is at the center of the ancient temple city
+of Madurai mentioned in the Tamil Sangam literature, with the goddess temple mentioned in 6th
+century CE texts.
+"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="ASSI GHAT"
+                android:textStyle="bold"
+
+                android:textSize="30sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/assi"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Assi Ghat is the heart of Varanasi and the locals, as well as, the tourists flock there to
+enjoy the amazing view of the sunset and sunrise at the Ganges. The Ghat has been a
+famous spot among the local youths to while away their time in the evening. Recently, the
+Ghat started having Aarti in the morning which is a must watch if you want to experience
+the true feel of Varanasi. The tourists generally travel from Assi to Dashaswamedh Ghat in
+the evening by boat, to see the famous aarti conducted there every evening which is an
+experience like none other"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:text="JAGGANATH TEMPLE"
+
+                android:textSize="30sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jaggan"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="The Jagannath Temple in Puri is a famous Hindu temple dedicated to Jagannath (Vishnu) in the
+coastal town of Puri in the state of Odisha, India. The name Jagannath (Lord of the Universe) is a
+combination of the Sanskrit words Jagat (Universe) and Nath (Lord of)."
+
+                android:textSize="30sp" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Bodh Gaya"
+                android:textSize="30dp"/>
+
+            <ImageView
+                android:layout_width="384dp"
+                android:layout_height="224dp"
+                android:src="@drawable/bodh" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Bodh Gaya is a religious site and place of pilgrimage associated with the Mahabodhi Temple
+Complex in Gaya district in the Indian state of Bihar. It is famous as it is the place
+where Gautama Buddha is said to have attained Enlightenment (Pali: bodhi) under what became
+known as the Bodhi Tree. Since antiquity, Bodh Gaya has remained the object of pilgrimage
+and veneration for both Hindus and Buddhists."
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="VAISHALI"
+                android:textSize="30dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vaish"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Vaishali or Vesali was a city in present-day Bihar, India, and is now an archaeological site. It is a
+part of the Tirhut Division.It was the capital city of the Vajjian Confederacy of (Vrijji mahajanapada), considered one of the
+first examples of a republic around the 6th century BCE. Gautama Buddha preached his last
+sermon before his death in c. 483 BCE, then in 383 BCE the Second Buddhist council was
+convened here by King Kalasoka, making it an important place in
+both Jain and Buddhist religions. It contains one of the best-preserved of the Pillars of
+Ashoka, topped by a single Asiatic lion.
+"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

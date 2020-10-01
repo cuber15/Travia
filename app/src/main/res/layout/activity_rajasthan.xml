@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="UDAIPUR"
+                android:textSize="30dp"
+
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/udai" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Situated on the banks of Lake Pichola, the majestic City Palace of Udaipur is distinguished as one of
+the largest palace complex in India and among the best architectural marvels in Rajasthan. Initially, it
+was built by Maharana Udai Singh in 1559 AD while the Palace complex was built over a period of
+nearly 400 years, with contributions from several rulers of the Mewar dynasty. A wonderful blend of
+Medieval European and Indian architectural styles, the complex has several towers, domes and
+arches, palaces courtyards, pavilions, terraces, corridors, rooms, and hanging gardens. The palace
+interior is decorated with intricate mirror work, murals, and ancient wall paintings of the Mewar
+kingdom. Diwan-i-Aam, Diwan-E-Khas, Mubarak Mahal, City Palace Museum, Moti Mahal, etc. are
+the prominent places to visit inside the complex as part of Udaipur Tour Packages. The palace
+opens its doors from 9.30 AM to 5.30 PM daily for visitors"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="JAIPUR"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jaipur"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="One of the most treasured palaces in India, Jaipur City Palace was built in 1732 by Maharaja Sawai
+Jai Singh II. Later on, successive rulers extended the complex with many palaces. Boasting of
+European, Rajput and Mughal architectural styles, this palace features an array of gardens, temples,
+and pavilions. Chandra Mahal, Maharani’s Palace, Mubarak Mahal, Shri Govind Dev temple, Diwani-Aam, and Diwan-E-Khas are the prominent structures inside the palace complex. At present, most
+of this palace is the residence of the descendants of the former rulers of Jaipur. Only the ground
+floor is allowed for visitors where the Maharaja Sawai Man Singh II Museum is located that displays
+carpets, manuscripts and other items that belonged to the royal family. Tourists are welcome to
+explore the opulence of the rulers of Jaipur from 9 AM to 5 PM on all days of the as part of Jaipur
+Packages."
+
+
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="JODHPUR"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jodhpur"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Built over an area of 26 acres with 347 rooms, Umaid Bhawan Palace in Jodhpur is one of the most
+fascinating royal palaces in Rajasthan and among the world’s largest private dwellings. It was built
+by Maharaja Umaid Singh in 1943 to provide employment to thousands of people during the time of
+famine. This grand and imposing yellow sandstone palace is known for its stunning mixture of IndoSaracenic, Western Art Deco and Classical Revival styles of architecture. Owned by Maharaja Gaj
+Singh, the palace is the current residence of the royal family of Jodhpur. A part of the palace (about
+64 rooms) is converted into the heritage hotel by Taj Hotels. One can also find a gallery inside the
+palace that showcases stuffed leopards, classic cars that were used by the Maharajas, a vast
+collection of clocks, photographs and memorabilia as part of Rajasthan Tour Packages. One can
+visit this palace from 9 AM to 5 PM on all days of the week."
+                android:textSize="25dp"/>
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

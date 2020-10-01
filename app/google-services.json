@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "732100664130",
+    "firebase_url": "https://travia-946cd.firebaseio.com",
+    "project_id": "travia-946cd",
+    "storage_bucket": "travia-946cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732100664130:android:b689f4d2cf0d314a56c6db",
+        "android_client_info": {
+          "package_name": "com.example.android.travia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732100664130-kr9n92oq5t8pg4pnl78q6io8oaqjeh3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.travia",
+            "certificate_hash": "a49dadcd6910d494855628187c843c6dcb5c97de"
+          }
+        },
+        {
+          "client_id": "732100664130-2s23vdhosvcp21ralgvs2rt7isv449dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp9EWCY7YErtbv6zY-WgqiKN5mfb3Bcto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732100664130-2s23vdhosvcp21ralgvs2rt7isv449dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

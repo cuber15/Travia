@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sikhism">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="SIKANDAR BAGH"
+                android:textSize="30dp"
+
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                android:src="@drawable/sikand" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Sikandar Bagh formerly known by the British as Sikunder/ Sikandra/ Secundra Bagh, is a
+villa and garden enclosed by a fortified wall, with loopholes, gateway and corner bastions,
+approx. 150 yards square, c. 4.5 acres (1.8 ha), located in the city of Lucknow, Oudh, Uttar
+Pradesh, India. It was built by the last Nawab of Oudh, Wajid Ali Shah (1822–1887), as a
+summer residence. The name of the villa signifies 'Garden of Sikandar, perhaps
+after Alexander the Great,
+ whose name lives on in this form in these parts or perhaps after
+Sikandar Mahal Begum, the Nawab's favourite wife. It was stormed in 1857 by the British during
+the Indian Rebellion and witnessed within its walls the slaughter of all 2,200
+ sepoy mutineers
+who had made it a stronghold during their Siege of Lucknow. The site now houses the National
+Botanical Research Institute of India."
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="PANCH MAHAL"
+                android:textSize="30dp"
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/panchmahal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="The Panch Mahal meaning 'Five level Palace' was commissioned by Akbar This structure stands
+close to the Zenana quarters (Harem) which supports the supposition that it was used for
+entertainment and relaxation. This is one of the most important buildings in Fatehpur Sikri. This is
+an extraordinary structure employing the design elements of a Buddhist Temple; entirely
+columnar, consisting of four stories of decreasing size arranged asymmetrically on the ground
+floor, which contains 84 columns. These columns, that originally had jaali (screens) between
+them, support the whole structure. Once these screens provided purdah (cover) to queens and
+princess on the top terraces enjoying the cool breeze and watching splendid views of Sikri
+fortifications and the town nestling at the foot of the ridge.
+"
+                android:textSize="25dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

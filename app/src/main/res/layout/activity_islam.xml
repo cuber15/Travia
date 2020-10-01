@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".islam">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:background="@color/yellow">
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:text="HAJI ALI DARGAH"
+            android:textSize="30dp"
+
+            />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hadd"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="The Haji Ali Dargah is a mosque and dargah (tomb) or the monument of Pir Haji Ali Shah
+Bukhari located on an islet off the coast of Worli in the southern part of Mumbai. Pir Haji Ali Shah
+Bukhari was a Sufi saint and a wealthy merchant from Uzbekistan. Near the heart of the city
+proper, the dargah is one of the most recognisable landmarks of Mumbai. An exquisite example
+of Indo-Islamic Architecture, associated with legends about doomed lovers, the dargah contains
+the tomb of Haji Ali Shah Bukhari."
+                android:textSize="25dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="JAMA MASJID"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jamma"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="The Masjid e Jahan Numa (lit. the 'World-reflecting Mosque'), commonly known as the Jama Masjid of Delhi, is one of the largest mosques in India.[1] It was built by the Mughal Emperor Shah Jahan between 1650 and 1656 at a cost of one million rupees, and was inaugurated by Imam Syed Abdul Ghafoor Shah Bukhari from Bukhara, present-day Uzbekistan. The mosque was completed in 1656 AD with three great gates and two 40 metres high minarets constructed with strips of red sandstone and white marble. The courtyard can accommodate more than 25,000 people. There are three domes on the terrace which are surrounded by the two minarets. "
+                android:textSize="25dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="SHAH E ALAM"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shahe"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:padding="8dp"
+                android:text="Shah e Alam was the son of Hazrath Syed Burhanuddin Qutub-ul-Alam and the great grandson
+of the celebrated Hazrath Syed Jalal uddin Hussaini Bukhari of Uch, also known as
+Makhdoom Jahaniyan Jahangasht. Attracted to the court of Ahmed Shah I, his father settled at
+Vatva and died there in 1452. Shah e Alam succeeded his father and, till his death in 1475, was
+the guide of Mahmud Begada's youth, and afterwards one of the most revered of Muslim
+religious teachers of Ahmedabad."
+                android:textSize="25dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</ScrollView>
